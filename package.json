@@ -9,5 +9,13 @@
   "author": "raflyasligalek.vercel.app",
   "license": "ISC",
   "description": "",
-  "type": "module"
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RizqullahY/topan-jeki.git"
+  },
+  "bugs": {
+    "url": "https://github.com/RizqullahY/topan-jeki.git/issues"
+  },
+  "homepage": "https://github.com/RizqullahY/topan-jeki.git#readme"
 }
