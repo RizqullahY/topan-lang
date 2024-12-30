@@ -1,6 +1,6 @@
 {
   "name": "topan-jeki",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/RizqullahY/topan-jeki.git/issues"
   },
-  "homepage": "https://github.com/RizqullahY/topan-jeki.git#readme"
+  "homepage": "https://github.com/RizqullahY/topan-jeki.git#readme",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
 }

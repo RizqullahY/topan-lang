@@ -1,2 +1,9 @@
-cetak "topan language v1.00.0"
+cetak "topan language v1.0.0.0"
 
+jadi uangTopan = 0;
+cetak "uang topan kemarin " + uangTopan
+
+cetak "topan bayaran"
+
+jadi uangTopanSekarang = uangTopan + 10000;
+cetak "uang topan sekarang " + uangTopanSekarang
