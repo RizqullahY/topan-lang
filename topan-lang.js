@@ -1,9 +1,11 @@
 #!/usr/bin/env node
 import fs from "fs";
+import path from "path";  // Import modul path untuk memeriksa ekstensi file
 import parseCommands from "./lib/util/parseCommands.js";
 import executedCommand from "./lib/util/executedCommand.js";
 
 let fileLocate = null;
+
 const parseArgs = () => {
   const args = process.argv;
 
@@ -17,6 +19,12 @@ const parseArgs = () => {
   fileLocate = args[2];
   if (!fs.existsSync(fileLocate)) {
     console.log(`File "${args[2]}" not found, please verify file location`);
+    return false;
+  }
+
+  const fileExtension = path.extname(fileLocate);
+  if (fileExtension !== '.topan') {
+    console.log('Only .topan files are allowed');
     return false;
   }
 

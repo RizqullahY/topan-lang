@@ -7,3 +7,10 @@ cetak "topan bayaran"
 
 jadi uangTopanSekarang = uangTopan + 10000;
 cetak "uang topan sekarang " + uangTopanSekarang
+
+fungsi tambah angka1 angka2 
+    cetak angka1 + angka2
+    return angka1 + angka2
+udah sih
+
+tambah (10000, 5000)
