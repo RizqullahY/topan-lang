@@ -1,0 +1,16 @@
+jadi topan = "Manusia Banjarbaru"
+fix kamal = "Manusia 3D"
+cetak kamal
+cetak topan
+
+jadi celanaKamal = 0
+cetak celanaKamal
+celanaKamal = 12
+cetak celanaKamal
+
+fix uangKamal = 15000
+cetak uangKamal
+uangKamal = 4000000
+cetak uangKamal
+
+celana kamal

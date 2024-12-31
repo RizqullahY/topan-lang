@@ -1,9 +1,6 @@
 cetak "villain saga s1"
 cetak 2
-cetak true
 cetak 2.3
 
-jadi arofan = banar
-cetak arofan
-arofan = salahCenah
-cetak arofan
+jadi kesalahan = salahCenah
+cetak kesalahan
