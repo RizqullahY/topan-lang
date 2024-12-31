@@ -27,11 +27,16 @@ node ./node_modules/topan-lang/topan-lang.js ./node_modules/topan-lang/__test__/
 ---
 
 ## Guide
+### Basic Use
+| JavaScript    | Topan-Lang       |  
+|---------------|------------------|
+| `let`         | `jadi ... = ...` |  
+| `const`       | `fix ... = ...`  |  
+| `console.log` | `cetak ...`      | 
 
-| JavaScript   | Topan-Lang  |  
-|--------------|----------------|
-| `let`        | `jadi ... = ...` |  
-| `const`      | `fix ... = ...`  |  
-| `console.log`| `cetak ...`      | 
+### Boolean
+| `true`  | `banar`      |  
+|---------|--------------|
+| `false` | `salahCenah` |  
 
 ---
