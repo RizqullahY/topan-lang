@@ -1,16 +1,4 @@
-cetak "topan language v1.0.0.0"
-
-jadi uangTopan = 0;
-cetak "uang topan kemarin " + uangTopan
-
-cetak "topan bayaran"
-
-jadi uangTopanSekarang = uangTopan + 10000;
-cetak "uang topan sekarang " + uangTopanSekarang
-
-fungsi tambah angka1 angka2 
-    cetak angka1 + angka2
-    return angka1 + angka2
-udah sih
-
-tambah (10000, 5000)
+jadi kamal = "orang kediri";
+jadi jeki = "orang malang";
+cetak kamal == "orang malang"
+cetak jeki == "orang malang"

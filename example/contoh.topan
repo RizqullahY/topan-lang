@@ -1,6 +1,0 @@
-1 == 1;
-
-let angka1 = 1;
-let angka2 = 2;
-
-angka1 == 1; 
