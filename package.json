@@ -1,9 +1,10 @@
 {
   "name": "topan-lang",
   "version": "1.0.4",
-  "main": "index.js",
+  "main": "topan-lang.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "topan-test": "node topan-lang.js ./__test__/test.topan"
   },
   "keywords": [],
   "author": "raflyasligalek.vercel.app",
@@ -12,12 +13,12 @@
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RizqullahY/topan-jeki.git"
+    "url": "git+https://github.com/RizqullahY/topan-lang.git"
   },
   "bugs": {
-    "url": "https://github.com/RizqullahY/topan-jeki.git/issues"
+    "url": "https://github.com/RizqullahY/topan-lang.git/issues"
   },
-  "homepage": "https://github.com/RizqullahY/topan-jeki.git#readme",
+  "homepage": "https://github.com/RizqullahY/topan-lang.git#readme",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   }
