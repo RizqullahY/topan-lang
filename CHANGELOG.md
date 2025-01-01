@@ -2,3 +2,6 @@
 ###
 - Error at const assign variable
 
+## [1.0.2] - 1 January 2025
+###
+- Cause javascript assign is ignore the const & let ( like python ) i delete it;

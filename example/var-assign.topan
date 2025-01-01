@@ -1,16 +1,13 @@
-jadi topan = "Manusia Banjarbaru"
-fix kamal = "Manusia 3D"
-cetak kamal
-cetak topan
+jadi uangTopan = 100
+cetak uangTopan
 
-jadi celanaKamal = 0
-cetak celanaKamal
-celanaKamal = 12
-cetak celanaKamal
+uangTopan = 200
+cetak uangTopan
 
-fix uangKamal = 15000
-cetak uangKamal
-uangKamal = 4000000
-cetak uangKamal
+jadi LaptopKamal = "Baru"
+cetak LaptopKamal
 
-celana kamal
+cetak = console.log()"
+
+cetak cetak
+
