@@ -12,7 +12,7 @@ npm install topan-lang
 In the **topan-lang** directory, run:
 
 ```bash
-node topan-lang.js ./__test__/***.topan
+node topan-lang.js main.topan
 ```
 
 ---
@@ -23,10 +23,11 @@ node ./node_modules/topan-lang/topan-lang.js ./node_modules/topan-lang/__test__/
 
 ## Guide
 ### Basic Use
-| Topan-Lang        | Description                                               |
-|-------------------|-----------------------------------------------------------|
-| `cetak ...`       | Printout the value of variable or something               |
-| `variable1 = ...` | Assign a value to a variable and it push be cant reassign |
+| Topan-Lang               | Description                                              |
+|--------------------------|----------------------------------------------------------|
+| `cetak ...`              | Printout the value of variable or something              |
+| `variable1 = ...`        | Assign a value to a variable and it push be can reassign |
+| `forLoop 1 sampai 10`    | For Looping                                              |
 
 ### Boolean
 | `true`  | `banar`      |  
