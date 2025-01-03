@@ -1,0 +1,4 @@
+cetak "Simple Basic LOOP"
+forLoop 1 sampai 10
+
+

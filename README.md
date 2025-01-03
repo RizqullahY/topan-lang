@@ -23,11 +23,10 @@ node ./node_modules/topan-lang/topan-lang.js ./node_modules/topan-lang/__test__/
 
 ## Guide
 ### Basic Use
-| JavaScript    | Topan-Lang       |  
-|---------------|------------------|
-| `let`         | `jadi ... = ...` |  
-| `const`       | `fix ... = ...`  |  
-| `console.log` | `cetak ...`      | 
+| Topan-Lang        | Description                                               |
+|-------------------|-----------------------------------------------------------|
+| `cetak ...`       | Printout the value of variable or something               |
+| `variable1 = ...` | Assign a value to a variable and it push be cant reassign |
 
 ### Boolean
 | `true`  | `banar`      |  

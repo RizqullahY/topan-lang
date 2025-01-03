@@ -1,13 +1,10 @@
 jadi uangTopan = 100
 cetak uangTopan
 
-uangTopan = 200
+jadi uangTopan = 200
 cetak uangTopan
 
 jadi LaptopKamal = "Baru"
 cetak LaptopKamal
 
-cetak = console.log()"
-
-cetak cetak
 
