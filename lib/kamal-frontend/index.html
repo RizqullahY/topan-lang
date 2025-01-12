@@ -22,6 +22,12 @@
                 console.log('Popup closed!');
             },
         });
+    });document.getElementById('showPopup').addEventListener('click', () => {
+        kamal.showSuccess({
+            onClose: () => {
+                console.log('Popup closed!');
+            },
+        });
     });
 </script>
 </body>
