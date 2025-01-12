@@ -12,15 +12,12 @@
     <button id="showPopup">Show Popup</button>
 </div>
 <script type="module">
-    import PopupAlert from './lib/index.js';
+    import KamalAlert from './lib/index.js';
 
-    const popup = new PopupAlert();
+    const kamal = new KamalAlert();
 
     document.getElementById('showPopup').addEventListener('click', () => {
-        popup.show({
-            title: 'Hello!',
-            message: 'This is a popup alert with an image.',
-            image: './src/img/example.png',
+        kamal.showError({
             onClose: () => {
                 console.log('Popup closed!');
             },

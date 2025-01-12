@@ -1,0 +1,9 @@
+npm i topan-lang
+'topan-lang/lib/kamal-frontend/lib'
+
+pm i --save-dev @types/topan-lang
+
+
+kalau pakai ts
+
+topan-lang.d.ts
