@@ -4,7 +4,7 @@
   "main": "topan-lang.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "topan-test": "node topan-lang.js ./__test__/test.topan"
+    "topan-test": "node topan-lang.js __test__/lang/test.topan"
   },
   "keywords": [],
   "author": "raflyasligalek.vercel.app",
@@ -18,5 +18,11 @@
   "bugs": {
     "url": "https://github.com/RizqullahY/topan-lang.git/issues"
   },
-  "homepage": "https://github.com/RizqullahY/topan-lang.git#readme"
+  "homepage": "https://github.com/RizqullahY/topan-lang.git#readme",
+  "devDependencies": {
+    "babel-plugin-module-resolver": "^5.0.2"
+  },
+  "imports": {
+    "@h-tools/crypto": "./lib/h-tools/cryptographic/caesar-chiper.js"
+  }
 }

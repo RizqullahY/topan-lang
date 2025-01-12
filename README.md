@@ -4,6 +4,7 @@
 
 ```bash
 npm install topan-lang
+npm install -g topan-lang : COMING SOON
 ```
 ---
 
@@ -17,7 +18,7 @@ node topan-lang.js main.topan
 
 ---
 ```bash
-node ./node_modules/topan-lang/topan-lang.js ./node_modules/topan-lang/__test__/main.topan
+node ./node_modules/topan-lang/topan-lang.js ./node_modules/topan-lang/__test__/lang/main.topan
 ```
 ---
 

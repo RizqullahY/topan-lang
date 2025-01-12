@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 import fs from "fs";
-import path from "path";  // Import modul path untuk memeriksa ekstensi file
+import path from "path";
 import parseCommands from "./lib/util/parseCommands.js";
 import executedCommand from "./lib/util/executedCommand.js";
 
