@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Popup Alert with Image</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+    <h1>Popup Alert with Image</h1>
+    <button id="showPopup">Show Popup</button>
+</div>
+<script type="module">
+    import PopupAlert from './lib/index.js';
+
+    const popup = new PopupAlert();
+
+    document.getElementById('showPopup').addEventListener('click', () => {
+        popup.show({
+            title: 'Hello!',
+            message: 'This is a popup alert with an image.',
+            image: './src/img/example.png',
+            onClose: () => {
+                console.log('Popup closed!');
+            },
+        });
+    });
+</script>
+</body>
+</html>
