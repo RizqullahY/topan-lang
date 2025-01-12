@@ -99,7 +99,7 @@ function App() {
 
       const result = await response.json();
       setData(result);
-    } catch (error) {
+    } catch (error : any) {
       setError(error.message);
       showErrorPopup();
     } finally {
