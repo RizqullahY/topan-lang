@@ -1,36 +1,61 @@
-# Welcome to Topan Language! 
+# Welcome to Topan Language!
 
-## Installation 
+## Installation
+
+### For Local Installation
 
 ```bash
-npm install topan-lang
-npm install -g topan-lang : COMING SOON
+  npm install topan-lang
 ```
+
 ---
 
-## How to Use 
+### For Global Installation
+
+```bash
+  npm install -g topan-lang
+```
+
+## How to Use
+
+### For Local
 
 In the **topan-lang** directory, run:
 
 ```bash
-node topan-lang.js main.topan
+  node topan-lang.js main.topan
+```
+
+If install as a `node package manager`
+
+---
+
+```bash
+  node ./node_modules/topan-lang/topan-lang.js main.topan
 ```
 
 ---
+
+### For Global
+
+Make sure you have file that the extension is .topan. ex : main.topan
+
 ```bash
-node ./node_modules/topan-lang/topan-lang.js ./node_modules/topan-lang/__test__/lang/main.topan
+    topan main.topan
 ```
----
 
 ## Guide
+
 ### Basic Use
-| Topan-Lang               | Description                                              |
-|--------------------------|----------------------------------------------------------|
-| `cetak ...`              | Printout the value of variable or something              |
-| `variable1 = ...`        | Assign a value to a variable and it push be can reassign |
-| `forLoop 1 sampai 10`    | For Looping                                              |
+
+| Topan-Lang            | Description                                              |
+|-----------------------|----------------------------------------------------------|
+| `cetak ...`           | Printout the value of variable or something              |
+| `variable1 = ...`     | Assign a value to a variable and it push be can reassign |
+| `forLoop 1 sampai 10` | For Looping from 1 - 10                                  |
 
 ### Boolean
+
 | `true`  | `banar`      |  
 |---------|--------------|
 | `false` | `salahCenah` |  
