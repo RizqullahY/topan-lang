@@ -1,4 +1,4 @@
-jadi kamal = "orang kediri";
-jadi jeki = "orang malang";
+jadi kamal = "orang kediri"
+jadi jeki = "orang malang"
 cetak kamal == "orang malang"
 cetak jeki == "orang malang"
