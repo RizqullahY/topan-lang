@@ -3,26 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Popup Alert with Image</title>
+    <title>Kamal Alert</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <div class="container">
-    <h1>Popup Alert with Image</h1>
-    <button id="showPopup">Show Popup</button>
+    <button id="showErrorPopup">Error</button>
+    <button id="showSuccessPopup">Success</button>
 </div>
 <script type="module">
     import KamalAlert from './lib/index.js';
 
     const kamal = new KamalAlert();
 
-    document.getElementById('showPopup').addEventListener('click', () => {
+    document.getElementById('showErrorPopup').addEventListener('click', () => {
         kamal.showError({
             onClose: () => {
                 console.log('Popup closed!');
             },
         });
-    });document.getElementById('showPopup').addEventListener('click', () => {
+    });
+    
+    document.getElementById('showSuccessPopup').addEventListener('click', () => {
         kamal.showSuccess({
             onClose: () => {
                 console.log('Popup closed!');
