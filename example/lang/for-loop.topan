@@ -1,4 +1,7 @@
 cetak "Simple Basic LOOP"
-forLoop 1 sampai 10
+forLoop 1 sampai 5
+
+cetak "Reversed Basic LOOP"
+forLoop 10 sampai 6
 
 
