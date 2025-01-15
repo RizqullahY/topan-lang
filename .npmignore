@@ -2,3 +2,7 @@
 .git
 .gitignore
 .env
+/docs
+/example
+.idea
+/__test__
