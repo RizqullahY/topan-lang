@@ -48,11 +48,13 @@ Make sure you have file that the extension is .topan. ex : main.topan
 
 ### Basic Use
 
-| Topan-Lang            | Description                                              |
-|-----------------------|----------------------------------------------------------|
-| `cetak ...`           | Printout the value of variable or something              |
-| `variable1 = ...`     | Assign a value to a variable and it push be can reassign |
-| `forLoop 1 sampai 10` | For Looping from 1 - 10                                  |
+| Topan-Lang                     | Description                                              |
+|--------------------------------|----------------------------------------------------------|
+| `cetak ...`                    | Printout the value of variable or something              |
+| `variable1 = ...`              | Assign a value to a variable and it push be can reassign |
+| `forLoop 1 sampai 10`          | For Looping from 1 - 10                                  |
+| `hitEpie "{url} langsung "`    | Fetch data sycronous                                     |
+| `hitEpie "{url} asingkronus "` | Fetch data asyncronous                                   |
 
 ### Boolean
 

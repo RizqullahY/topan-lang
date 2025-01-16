@@ -1,6 +1,6 @@
 {
   "name": "topan-lang",
-  "version": "1.0.17",
+  "version": "1.0.18",
   "main": "topan-lang.js",
   "scripts": {
     "topan-test": "node topan-lang.js __test__/lang/test.topan",

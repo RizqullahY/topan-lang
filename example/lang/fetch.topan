@@ -1,0 +1,5 @@
+hitEpie "https://raflyasligalek.vercel.app/api/quotes" langsung
+
+hitEpie "https://raflyasligalek.vercel.app/api/quote-of-the-day" langsung
+
+hitEpie "https://raflyasligalek.vercel.app/api/quotes" asingkronus 1000
