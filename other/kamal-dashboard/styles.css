@@ -1,0 +1,11 @@
+/* src/styles.css */
+body {
+    font-family: Arial, sans-serif;
+}
+
+#dashboard-container {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #ffffff;
+}

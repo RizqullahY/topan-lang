@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kamal Dashboard</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div>
+      <div id="dashboard-container"></div>
+      <div id="chart-container"></div>
+    </div>
+    <script type="module">
+      import KamalDashboard from "./lib/index.js";
+      const dashboard = new KamalDashboard("dashboard-container", {
+        columns: 4,
+        gap: "15px",
+      });
+      dashboard.addWidget("Widget 1");
+      dashboard.addWidget("Widget 2");
+      dashboard.addWidget("Widget 3");
+      dashboard.addWidget(``);
+
+      // dashboard.removeWidget(1)
+      // dashboard.clear()
+    </script>
+    <script type="module">
+      import KamalChart from "./lib/core/kamalChart.js";
+
+      const chart = new KamalChart("chart-container", {
+        width: 600,
+        height: 400,
+        barColor: "#4caf50",
+        axisColor: "#000",
+        labelColor: "#555",
+      });
+
+      // Render chart with data
+      const data = [10, 20, 15, 30, 25, 40, 23, 23, 23, 55, 55, 55];
+      chart.render(data);
+    </script>
+  </body>
+</html>
