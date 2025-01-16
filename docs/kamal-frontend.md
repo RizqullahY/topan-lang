@@ -13,7 +13,7 @@ npm install topan-lang
 ### Basic Example
 
 ```ts
-import KamalAlert from 'topan-lang/lib/kamal-frontend/lib';
+import KamalAlert from 'topan-lang/other/kamal-frontend/lib';
 import './App.css';
 
 function App() {
@@ -53,7 +53,7 @@ If you're using TypeScript, make sure you include the following type declaration
 ```ts
 // src/topan-lang.d.ts
 
-declare module 'topan-lang/lib/kamal-frontend/lib' {
+declare module 'topan-lang/other/kamal-frontend/lib' {
     class KamalAlert {
         showError(options: {
             onClose?: () => void;
@@ -73,7 +73,7 @@ You can also use the `KamalAlert` to show error alerts when data fetching fails.
 
 ```ts
 import { useEffect, useState } from 'react';
-import KamalAlert from 'topan-lang/lib/kamal-frontend/lib';
+import KamalAlert from 'topan-lang/other/kamal-frontend/lib';
 import './App.css';
 
 function App() {

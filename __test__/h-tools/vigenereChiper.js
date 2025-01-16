@@ -1,4 +1,4 @@
-import { VigenereDecrypt, VigenereEncrypt } from "../../lib/h-tools/cryptographic/vigenere-chiper.js";
+import { VigenereDecrypt, VigenereEncrypt } from "../../other/h-tools/cryptographic/vigenere-chiper.js";
 
 let message = 'audzubilla himinas viko nirrojim';
 let key = 'laptopmajapahit';
