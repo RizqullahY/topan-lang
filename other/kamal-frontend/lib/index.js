@@ -66,7 +66,7 @@ class KamalAlert {
         container.classList.add('popup-container');
 
         container.innerHTML = `
-      <img src="https://raw.githubusercontent.com/RizqullahY/topan-lang/master/lib/kamal-frontend/src/img/kamal.jpg">
+      <img src="https://raw.githubusercontent.com/RizqullahY/topan-lang/refs/heads/master/other/kamal-frontend/src/img/kamal.jpg">
       <h2 style="color: black">Ada Yang Error NICHH</h2>
       <p style="color: black">ADUH ERROR ADUH</p>
       <button>OK</button>
@@ -89,7 +89,7 @@ class KamalAlert {
         container.classList.add('popup-container');
 
         container.innerHTML = `
-      <img src="https://raw.githubusercontent.com/RizqullahY/topan-lang/master/lib/kamal-frontend/src/img/kamal.jpg">
+      <img src="https://raw.githubusercontent.com/RizqullahY/topan-lang/refs/heads/master/other/kamal-frontend/src/img/kamal.jpg">
       <h2 style="color: black">SUKSES WEEE</h2>
       <p style="color: black">HOREE</p>
       <button>OK</button>
