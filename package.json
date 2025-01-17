@@ -1,15 +1,16 @@
 {
   "name": "topan-lang",
-  "version": "1.0.22",
+  "version": "1.0.24",
   "main": "topan-lang.js",
   "scripts": {
     "topan-test": "node topan-lang.js __test__/lang/test.topan",
     "test": "mocha \"__test__/**/**/*.test.js\" ",
     "lint": "prettier --check .",
-    "lint-fix": "prettier --write ."
+    "lint-fix": "prettier --write .",
+    "build": "webpack --mode production"
   },
   "bin": {
-    "topan": "topan-lang.js" 
+    "topan": "topan-lang.js"
   },
   "keywords": [],
   "author": "raflyasligalek.vercel.app",
@@ -34,11 +35,17 @@
     "@eslint/js": "^9.18.0",
     "@types/jest": "^29.5.14",
     "babel-jest": "^29.7.0",
+    "esbuild": "^0.24.2",
     "eslint": "^9.18.0",
+    "glob": "^11.0.1",
     "globals": "^15.14.0",
     "jest": "^29.7.0",
     "mocha": "^11.0.1",
-    "prettier": "^3.4.2"
+    "prettier": "^3.4.2",
+    "terser-webpack-plugin": "^5.3.11",
+    "webpack": "^5.97.1",
+    "webpack-cli": "^6.0.1",
+    "webpack-merge": "^6.0.1"
   },
   "lint-staged": {
     "*.js": "eslint --cache --fix",
