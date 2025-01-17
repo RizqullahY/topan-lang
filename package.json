@@ -1,6 +1,6 @@
 {
   "name": "topan-lang",
-  "version": "1.0.18",
+  "version": "1.0.21",
   "main": "topan-lang.js",
   "scripts": {
     "topan-test": "node topan-lang.js __test__/lang/test.topan",
@@ -15,7 +15,7 @@
   "keywords": [],
   "author": "raflyasligalek.vercel.app",
   "license": "ISC",
-  "description": "",
+  "description": "Topan Lang, a programming language",
   "type": "module",
   "repository": {
     "type": "git",

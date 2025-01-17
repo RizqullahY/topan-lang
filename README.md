@@ -1,9 +1,9 @@
 # Topan Language!
+
 <div align="center">
   <img src="https://github.com/user-attachments/assets/7ef294c4-6678-4db9-b5d8-6b305549c879" width="500"/>
 </div>
 <p>Actually, the illustration has nothing to do with Topan Language. The python snake in the image does not represent the Python language itself, ✌️ but this Topan Lang is inspired by a person who loves python snakes</p>
-
 
 ## Installation
 
@@ -53,13 +53,14 @@ Make sure you have file that the extension is .topan. ex : main.topan
 
 ### Basic Use
 
-| Topan-Lang                     | Description                                              |
-| ------------------------------ | -------------------------------------------------------- |
-| `cetak ...`                    | Printout the value of variable or something              |
-| `variable1 = ...`              | Assign a value to a variable and it push be can reassign |
-| `forLoop 1 sampai 10`          | For Looping from 1 - 10                                  |
-| `hitEpie "{url} langsung "`    | Fetch data sycronous                                     |
-| `hitEpie "{url} asingkronus "` | Fetch data asyncronous                                   |
+| Topan-Lang                         | Description                                              |
+| ---------------------------------- | -------------------------------------------------------- |
+| `cetak ...`                        | Printout the value of variable or something              |
+| `jadi variable1 = ...`             | Assign a value to a variable and it push be can reassign |
+| `ulangi 1 sampai 5`                | For Looping from 1 - 10                                  |
+| `ulangi 10 sampai 6`               | For Looping from 10 - 6                                  |
+| `hitEpie "{url}" langsung `        | Fetch data syncronous                                    |
+| `hitEpie "{url}" asingkronus ... ` | Fetch data asyncronous (set time out): opsional          |
 
 ### Boolean
 
