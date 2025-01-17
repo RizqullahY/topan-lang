@@ -1,11 +1,11 @@
 class KamalAlert {
-    constructor() {
-        this.initStyles();
-    }
+  constructor() {
+    this.initStyles();
+  }
 
-    initStyles() {
-        const style = document.createElement('style');
-        style.textContent = `
+  initStyles() {
+    const style = document.createElement("style");
+    style.textContent = `
       .popup-overlay {
         position: fixed;
         top: 0;
@@ -55,54 +55,54 @@ class KamalAlert {
         background: #0056b3;
       }
     `;
-        document.head.appendChild(style);
-    }
+    document.head.appendChild(style);
+  }
 
-    showError({ onClose = null } = {}) {
-        const overlay = document.createElement('div');
-        overlay.classList.add('popup-overlay');
+  showError({ onClose = null } = {}) {
+    const overlay = document.createElement("div");
+    overlay.classList.add("popup-overlay");
 
-        const container = document.createElement('div');
-        container.classList.add('popup-container');
+    const container = document.createElement("div");
+    container.classList.add("popup-container");
 
-        container.innerHTML = `
+    container.innerHTML = `
       <img src="https://raw.githubusercontent.com/RizqullahY/topan-lang/refs/heads/master/other/kamal-frontend/src/img/kamal.jpg">
       <h2 style="color: black">Ada Yang Error NICHH</h2>
       <p style="color: black">ADUH ERROR ADUH</p>
       <button>OK</button>
     `;
 
-        container.querySelector('button').addEventListener('click', () => {
-            document.body.removeChild(overlay);
-            if (typeof onClose === 'function') onClose();
-        });
+    container.querySelector("button").addEventListener("click", () => {
+      document.body.removeChild(overlay);
+      if (typeof onClose === "function") onClose();
+    });
 
-        overlay.appendChild(container);
-        document.body.appendChild(overlay);
-    };
+    overlay.appendChild(container);
+    document.body.appendChild(overlay);
+  }
 
-    showSuccess({ onClose = null } = {}) {
-        const overlay = document.createElement('div');
-        overlay.classList.add('popup-overlay');
+  showSuccess({ onClose = null } = {}) {
+    const overlay = document.createElement("div");
+    overlay.classList.add("popup-overlay");
 
-        const container = document.createElement('div');
-        container.classList.add('popup-container');
+    const container = document.createElement("div");
+    container.classList.add("popup-container");
 
-        container.innerHTML = `
+    container.innerHTML = `
       <img src="https://raw.githubusercontent.com/RizqullahY/topan-lang/refs/heads/master/other/kamal-frontend/src/img/kamal.jpg">
       <h2 style="color: black">SUKSES WEEE</h2>
       <p style="color: black">HOREE</p>
       <button>OK</button>
     `;
 
-        container.querySelector('button').addEventListener('click', () => {
-            document.body.removeChild(overlay);
-            if (typeof onClose === 'function') onClose();
-        });
+    container.querySelector("button").addEventListener("click", () => {
+      document.body.removeChild(overlay);
+      if (typeof onClose === "function") onClose();
+    });
 
-        overlay.appendChild(container);
-        document.body.appendChild(overlay);
-    }
+    overlay.appendChild(container);
+    document.body.appendChild(overlay);
+  }
 }
 
 export default KamalAlert;

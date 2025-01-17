@@ -53,17 +53,13 @@ If you're using TypeScript, make sure you include the following type declaration
 ```ts
 // src/topan-lang.d.ts
 
-declare module 'topan-lang/other/kamal-frontend/lib' {
-    class KamalAlert {
-        showError(options: {
-            onClose?: () => void;
-        }): void;
-        showSuccess(options: {
-            onClose?: () => void;
-        }): void;
-    }
+declare module "topan-lang/other/kamal-frontend/lib" {
+  class KamalAlert {
+    showError(options: { onClose?: () => void }): void;
+    showSuccess(options: { onClose?: () => void }): void;
+  }
 
-    export default KamalAlert;
+  export default KamalAlert;
 }
 ```
 
@@ -121,7 +117,7 @@ function App() {
 
       {loading && <p>Loading...</p>}
       {error && <p>Error: {error}</p>}
-      
+
       {data && <div>Data: {JSON.stringify(data)}</div>}
 
       {/* Button to simulate fetching data again */}

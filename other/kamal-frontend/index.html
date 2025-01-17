@@ -1,36 +1,40 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kamal Alert</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-<div class="container">
-    <button id="showErrorPopup">Error</button>
-    <button id="showSuccessPopup">Success</button>
-</div>
-<script type="module">
-    import KamalAlert from './lib/index.js';
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <button id="showErrorPopup">Error</button>
+      <button id="showSuccessPopup">Success</button>
+    </div>
+    <script type="module">
+      import KamalAlert from "./lib/index.js";
 
-    const kamal = new KamalAlert();
+      const kamal = new KamalAlert();
 
-    document.getElementById('showErrorPopup').addEventListener('click', () => {
-        kamal.showError({
+      document
+        .getElementById("showErrorPopup")
+        .addEventListener("click", () => {
+          kamal.showError({
             onClose: () => {
-                console.log('Popup closed!');
+              console.log("Popup closed!");
             },
+          });
         });
-    });
-    
-    document.getElementById('showSuccessPopup').addEventListener('click', () => {
-        kamal.showSuccess({
+
+      document
+        .getElementById("showSuccessPopup")
+        .addEventListener("click", () => {
+          kamal.showSuccess({
             onClose: () => {
-                console.log('Popup closed!');
+              console.log("Popup closed!");
             },
+          });
         });
-    });
-</script>
-</body>
+    </script>
+  </body>
 </html>

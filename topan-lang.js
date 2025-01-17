@@ -1,4 +1,6 @@
 #!/usr/bin/env node
+/* eslint-disable no-undef */
+
 import fs from "fs";
 import path from "path";
 import parseCommands from "./lib/util/parseCommands.js";
@@ -6,13 +8,14 @@ import executedCommand from "./lib/util/executedCommand.js";
 
 let fileLocate = null;
 
+/**
+ * @returns {boolean}
+ */
 const parseArgs = () => {
   const args = process.argv;
 
   if (args.length < 3) {
-    console.log(
-      "Require file args, .topan"
-    );
+    console.log("Require file args, .topan");
     return false;
   }
 
@@ -23,8 +26,8 @@ const parseArgs = () => {
   }
 
   const fileExtension = path.extname(fileLocate);
-  if (fileExtension !== '.topan') {
-    console.log('Only .topan files are allowed');
+  if (fileExtension !== ".topan") {
+    console.log("Only .topan files are allowed");
     return false;
   }
 

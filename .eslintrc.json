@@ -1,0 +1,10 @@
+{
+  "env": {
+    "node": true,  // Pastikan ini ada
+    "es2021": true  // Atau versi ES yang sesuai
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:prettier/recommended"
+  ]
+}

@@ -4,7 +4,10 @@
   "main": "topan-lang.js",
   "scripts": {
     "topan-test": "node topan-lang.js __test__/lang/test.topan",
-    "test": "mocha \"__test__/**/**/*.test.js\" "
+    "test": "mocha \"__test__/**/**/*.test.js\" ",
+    "lint": "prettier --check .",
+    "lint-fix": "prettier --write .",
+    "prepare": "husky install"
   },
   "bin": {
     "topan": "./topan-lang.js"
@@ -23,14 +26,23 @@
   },
   "homepage": "https://github.com/RizqullahY/topan-lang.git#readme",
   "dependencies": {
-    "dotenv": "^16.4.7"
+    "dotenv": "^16.4.7",
+    "husky": "^9.1.7"
   },
   "devDependencies": {
     "@babel/core": "^7.26.0",
     "@babel/preset-env": "^7.26.0",
+    "@eslint/js": "^9.18.0",
     "@types/jest": "^29.5.14",
     "babel-jest": "^29.7.0",
+    "eslint": "^9.18.0",
+    "globals": "^15.14.0",
     "jest": "^29.7.0",
-    "mocha": "^11.0.1"
+    "mocha": "^11.0.1",
+    "prettier": "^3.4.2"
+  },
+  "lint-staged": {
+    "*.js": "eslint --cache --fix",
+    "*.{js,css,md}": "prettier --write"
   }
 }

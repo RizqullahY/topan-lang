@@ -49,7 +49,7 @@ Make sure you have file that the extension is .topan. ex : main.topan
 ### Basic Use
 
 | Topan-Lang                     | Description                                              |
-|--------------------------------|----------------------------------------------------------|
+| ------------------------------ | -------------------------------------------------------- |
 | `cetak ...`                    | Printout the value of variable or something              |
 | `variable1 = ...`              | Assign a value to a variable and it push be can reassign |
 | `forLoop 1 sampai 10`          | For Looping from 1 - 10                                  |
@@ -58,8 +58,8 @@ Make sure you have file that the extension is .topan. ex : main.topan
 
 ### Boolean
 
-| `true`  | `banar`      |  
-|---------|--------------|
-| `false` | `salahCenah` |  
+| `true`  | `banar`      |
+| ------- | ------------ |
+| `false` | `salahCenah` |
 
 ---
