@@ -1,6 +1,6 @@
 {
   "name": "topan-lang",
-  "version": "1.0.23",
+  "version": "1.0.22",
   "main": "topan-lang.js",
   "scripts": {
     "topan-test": "node topan-lang.js __test__/lang/test.topan",
@@ -9,7 +9,7 @@
     "lint-fix": "prettier --write ."
   },
   "bin": {
-    "topan": "topan-lang.js"
+    "topan": "topan-lang.js" 
   },
   "keywords": [],
   "author": "raflyasligalek.vercel.app",
