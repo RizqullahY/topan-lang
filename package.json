@@ -1,16 +1,15 @@
 {
   "name": "topan-lang",
-  "version": "1.0.21",
+  "version": "1.0.23",
   "main": "topan-lang.js",
   "scripts": {
     "topan-test": "node topan-lang.js __test__/lang/test.topan",
     "test": "mocha \"__test__/**/**/*.test.js\" ",
     "lint": "prettier --check .",
-    "lint-fix": "prettier --write .",
-    "prepare": "husky install"
+    "lint-fix": "prettier --write ."
   },
   "bin": {
-    "topan": "./topan-lang.js"
+    "topan": "topan-lang.js"
   },
   "keywords": [],
   "author": "raflyasligalek.vercel.app",
