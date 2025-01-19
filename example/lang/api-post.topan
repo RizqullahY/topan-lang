@@ -1,5 +1,4 @@
 jadi data = "{ 'name' : 'Nama Saya', 'email' = 'rafly@raflyasligalek.github.io'}"
+cetak data
 
-
-
-jis ("lova lova")
+satra posEpie url (http://localhost:3000/users) BODI = { "name" : "Nama Saya", "email" : "rafly@raflyasligalek.github.io"}
