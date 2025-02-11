@@ -1,0 +1,1 @@
+1. Active / Nonactive Husky -> ./.husky/pre-commit
